@@ -2,8 +2,6 @@ name: Mixed inputs
 
 on:
   push:
-    branches:
-      - "paul-byers-patch-1/**"
   workflow_dispatch:
     inputs:
       name:
